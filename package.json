@@ -1,0 +1,24 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "description": "Startpage made with markdown and css",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js",
+    "serve": "http-server ./build -c-1"
+  },
+  "keywords": [
+    "startpage",
+    "markdown",
+    "remark"
+  ],
+  "author": "Ian Mancini <ianmethyst@gmail.com>",
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "remark-html": "^7.0.0",
+    "remark-parse": "^5.0.0",
+    "unified": "^6.1.6"
+  }
+}
